@@ -1102,13 +1102,13 @@ main {
 }
 
 .blog-meta :is(.blog-category, time) {
-  color: var(--light-gray-70);
+  color: #111;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
 }
 
 .blog-meta .dot {
-  background: var(--light-gray-70);
+  background: #111;
   width: 4px;
   height: 4px;
   border-radius: 4px;
@@ -1123,7 +1123,7 @@ main {
 .blog-post-item > a:hover .blog-item-title { color: #2196f3; }
 
 .blog-text {
-  color: #1111;
+  color: #111;
   font-size: var(--fs-6);
   font-weight: var(--fw-300);
   line-height: 1.6;
@@ -1525,7 +1525,7 @@ textarea.form-input::-webkit-resizer { display: none; }
 
   .blog-posts-list { gap: 30px; }
 
-  .blog-content { padding: 25px; }
+  .blog-content { padding: 15px; padding-left: 25px; }
 
 
 
@@ -1883,6 +1883,6 @@ textarea.form-input::-webkit-resizer { display: none; }
 	 * RESUME
 	 */
 
-  .timeline-text { max-width: 800px; }
+  .timeline-text { max-width: 700px; }
 
 }
